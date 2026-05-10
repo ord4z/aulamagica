@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Aula Mágica | Donde el arte enseña y el asombro educa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #e2e8f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 24px;
+        }
+        /* La estructura principal mantiene el ancho máximo y aspecto de pizarra */
+        .magic-container {
+            max-width: 880px;
+            width: 100%;
+            margin: auto;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 40px -12px rgba(0,0,0,0.35);
+            transition: all 0.2s ease;
+        }
+        /* Ajustes responsive para pantallas pequeñas */
+        @media (max-width: 650px) {
+            body {
+                padding: 12px;
+            }
+            .grid-objetivos {
+                grid-template-columns: 1fr !important;
+                gap: 20px !important;
+            }
+            .contacto-flex {
+                flex-direction: column;
+                gap: 12px !important;
+                align-items: center;
+            }
+            .componentes-flex {
+                flex-direction: column;
+                gap: 24px !important;
+            }
+            .cabecera-titulo h1 {
+                font-size: 36px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="magic-container">
+<!-- CABECERA CON IMAGEN -->
+<div style="background: #1a1a1a; padding: 20px; text-align: center; border-bottom: 8px solid #d4af37;">
+    <img src="magia.jpg" alt="Aula M᧩ca" style="width: 100%; max-width: 700px; display: block; margin: 0 auto; border-radius: 12px;" onerror="this.onerror=null; this.src='https://placehold.co/700x300/1a1a1a/white?text=Verifica+nombre+de+la+imagen'">
+    <!-- Si quieres mostrar el eslogan debajo de la imagen, borra los s�olos de comentario de la siguiente l�a -->
+    <!-- <p style="color: #ccc; font-style: italic; font-size: 18px; margin-top: 15px;">"Donde el arte ense񡠹 el asombro educa"</p> -->
+</div>
+
+    <!-- INTRODUCCIÓN -->
+    <div style="padding: 40px; background: #fff;">
+        <h2 style="color: #1a1a1a; border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-bottom: 20px;">Nuestra Misi󮼯h2>
+        <p style="font-size: 18px; line-height: 1.6; color: #555;">
+            <b>El Aula M᧩ca</b> es una iniciativa pedag󧩣a-art�ica de vanguardia que fusiona el ilusionismo, el teatro circense y la narrativa esc鮩ca. Transformamos entornos educativos y corporativos utilizando el asombro como el veh�lo m᳠eficaz para transmitir valores y herramientas de vida.
+        </p>
+
+        <!-- FOTO ARTISTAS (external image from googleusercontent) -->
+       <!-- FOTO ARTISTAS -->
+<div style="margin: 40px 0; text-align: center;">
+    <img src="talento.jpg" alt="Equipo de Artistas Aula M᧩ca" style="width: 100%; max-width: 700px; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+    <p style="font-size: 14px; color: #888; margin-top: 10px;">Excelencia t飮ica y humana con m᳠de 20 a񯳠de trayectoria internacional.</p>
+</div>
+
+        <!-- OBJETIVOS: grid responsiva -->
+        <div class="grid-objetivos" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
+            <div style="background: #f9f9f9; padding: 25px; border-radius: 10px; border-left: 5px solid #d4af37;">
+                <h3 style="margin-top: 0; color: #d4af37;">Propuesta Educativa</h3>
+                <ul style="padding-left: 20px; color: #555; margin-top: 12px;">
+                    <li><b>Valores:</b> Empat�y honestidad.</li>
+                    <li><b>Habilidades:</b> Gesti󮠤e la frustraci󮮼/li>
+                    <li><b>Intelecto:</b> Pensamiento cr�co.</li>
+                    <li><b>Gesti󮺼/b> Modelo de econom�circular para instituciones.</li>
+                </ul>
+            </div>
+            <div style="background: #f9f9f9; padding: 25px; border-radius: 10px; border-left: 5px solid #1a1a1a;">
+                <h3 style="margin-top: 0; color: #1a1a1a;">Propuesta Corporativa</h3>
+                <ul style="padding-left: 20px; color: #555; margin-top: 12px;">
+                    <li><b>Cultura:</b> Cohesi󮠤e equipos.</li>
+                    <li><b>Innovaci󮺼/b> Resoluci󮠣reativa.</li>
+                    <li><b>Bienestar:</b> Impacto inmediato en el clima laboral.</li>
+                    <li><b>Vanguardia:</b> Integraci󮠥strat駩ca de la IA.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- COMPONENTES DE LA EXPERIENCIA -->
+        <div style="margin-top: 60px;">
+            <h2 style="color: #1a1a1a; text-align: center;">Componentes de la Experiencia</h2>
+            <div class="componentes-flex" style="display: flex; justify-content: space-between; margin-top: 30px; text-align: center; flex-wrap: wrap;">
+                <div style="flex: 1; padding: 10px; min-width: 140px;">
+                    <span style="font-size: 48px;">🎭</span>
+                    <h4 style="margin: 10px 0 5px;">El Show</h4>
+                    <p style="font-size: 14px; color: #666;">Puesta en escena con narrativa ética.</p>
+                </div>
+                <div style="flex: 1; padding: 10px; min-width: 140px;">
+                    <span style="font-size: 48px;">✨</span>
+                    <h4 style="margin: 10px 0 5px;">Participación</h4>
+                    <p style="font-size: 14px; color: #666;">El público es el protagonista.</p>
+                </div>
+                <div style="flex: 1; padding: 10px; min-width: 140px;">
+                    <span style="font-size: 48px;">⚙️</span>
+                    <h4 style="margin: 10px 0 5px;">Adaptabilidad</h4>
+                    <p style="font-size: 14px; color: #666;">Contenidos a medida de sus retos.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACTOS -->
+        <div style="margin-top: 60px; padding: 30px; background: #1a1a1a; color: white; border-radius: 10px; text-align: center;">
+            <h3 style="margin-top: 0; color: #d4af37; font-weight: 500;">Hagamos Magia juntos</h3>
+            <p style="margin: 15px 0 5px;">Contactos:</p>
+           <div class="contacto-flex" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+    <span> <a href="https://wa.me/58424758715" target="_blank" style="color: white; text-decoration: none; font-weight: bold;">+58 424-758715</a></span>
+    <span><a href="https://wa.me/584168257314" target="_blank" style="color: white; text-decoration: none; font-weight: bolt;">+58 416-8257314</a></span>
+    <span><a href="https://wa.me/584129949769" target="_blank" style="color: white; text-decoration: none; font-weight: bolt">+58 412-9949769</a></span>
+</div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div style="background: #f4f4f4; padding: 20px; text-align: center; font-size: 12px; color: #999; border-top: 1px solid #ddd;">
+        © 2026 Aula Mágica - Todos los derechos reservados.
+    </div>
+</div>
+</body>
+</html>
+```
